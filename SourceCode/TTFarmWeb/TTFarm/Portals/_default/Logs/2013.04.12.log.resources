@@ -1,0 +1,14 @@
+2013-04-12 08:32:12,756 [Kailash-PC][Thread:10][ERROR] DotNetNuke.UI.ControlPanel.AddPage - Page name is required.
+DotNetNuke.Web.UI.DotNetNukeException: Page name is required.
+   at DotNetNuke.Web.UI.RibbonBarManager.SaveTabInfoObject(TabInfo tab, TabInfo relativeToTab, TabRelativeLocation location, String templateMapPath)
+   at DotNetNuke.UI.ControlPanel.AddPage.CmdAddPageClick(Object sender, EventArgs e)
+2013-04-12 08:32:46,661 [Kailash-PC][Thread:15][ERROR] DotNetNuke.Web.UI.RibbonBarManager - Page Exists in portal: 0, path: //MarketPlace, culture: 
+DotNetNuke.Entities.Tabs.TabExistsException: Page Exists in portal: 0, path: //MarketPlace, culture: 
+   at DotNetNuke.Entities.Tabs.TabController.ValidateTabPath(TabInfo tab)
+   at DotNetNuke.Entities.Tabs.TabController.AddTabInternal(TabInfo tab, Int32 afterTabId, Int32 beforeTabId, Boolean includeAllTabsModules)
+   at DotNetNuke.Entities.Tabs.TabController.AddTabAfter(TabInfo tab, Int32 afterTabId)
+   at DotNetNuke.Web.UI.RibbonBarManager.SaveTabInfoObject(TabInfo tab, TabInfo relativeToTab, TabRelativeLocation location, String templateMapPath)
+2013-04-12 08:32:46,665 [Kailash-PC][Thread:15][ERROR] DotNetNuke.UI.ControlPanel.AddPage - Page Exists in portal: 0, path: //MarketPlace, culture: 
+DotNetNuke.Web.UI.DotNetNukeException: Page Exists in portal: 0, path: //MarketPlace, culture: 
+   at DotNetNuke.Web.UI.RibbonBarManager.SaveTabInfoObject(TabInfo tab, TabInfo relativeToTab, TabRelativeLocation location, String templateMapPath)
+   at DotNetNuke.UI.ControlPanel.AddPage.CmdAddPageClick(Object sender, EventArgs e)

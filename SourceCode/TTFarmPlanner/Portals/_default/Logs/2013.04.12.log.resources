@@ -1,0 +1,180 @@
+2013-04-12 06:02:04,152 [kmaharaj][Thread:16][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: The added or subtracted value results in an un-representable DateTime.
+Parameter name: value
+   at System.DateTime.AddTicks(Int64 value)
+   at System.DateTime.Add(Double value, Int32 scale)
+   at System.DateTime.AddDays(Double value)
+   at TTFarmGA.Evaluate(ArrayList chromosomes, Int32 maxBeds) in e:\TTFarm\App_Code\TTFarmGA.cs:line 141
+   at TTFarmGA.Execute(ArrayList genes, Int32 maxBeds, Int32 newPlanID) in e:\TTFarm\App_Code\TTFarmGA.cs:line 169
+   at DesktopModules_CropPlan_CropPlan.ASPxButton1_Click(Object sender, EventArgs e) in e:\TTFarm\DesktopModules\CropPlan\CropPlan.ascx.cs:line 103
+   at DevExpress.Web.ASPxEditors.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxEditors.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxClasses.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-04-12 06:02:04,200 [kmaharaj][Thread:16][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: The added or subtracted value results in an un-representable DateTime.
+Parameter name: value
+   at System.DateTime.AddTicks(Int64 value)
+   at System.DateTime.Add(Double value, Int32 scale)
+   at System.DateTime.AddDays(Double value)
+   at TTFarmGA.Evaluate(ArrayList chromosomes, Int32 maxBeds) in e:\TTFarm\App_Code\TTFarmGA.cs:line 141
+   at TTFarmGA.Execute(ArrayList genes, Int32 maxBeds, Int32 newPlanID) in e:\TTFarm\App_Code\TTFarmGA.cs:line 169
+   at DesktopModules_CropPlan_CropPlan.ASPxButton1_Click(Object sender, EventArgs e) in e:\TTFarm\DesktopModules\CropPlan\CropPlan.ascx.cs:line 103
+   at DevExpress.Web.ASPxEditors.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxEditors.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxClasses.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-04-12 06:03:36,573 [kmaharaj][Thread:16][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: The added or subtracted value results in an un-representable DateTime.
+Parameter name: value
+   at System.DateTime.AddTicks(Int64 value)
+   at System.DateTime.Add(Double value, Int32 scale)
+   at System.DateTime.AddDays(Double value)
+   at TTFarmGA.Evaluate(ArrayList chromosomes, Int32 maxBeds) in e:\TTFarm\App_Code\TTFarmGA.cs:line 141
+   at TTFarmGA.Execute(ArrayList genes, Int32 maxBeds, Int32 newPlanID) in e:\TTFarm\App_Code\TTFarmGA.cs:line 169
+   at DesktopModules_CropPlan_CropPlan.ASPxButton1_Click(Object sender, EventArgs e) in e:\TTFarm\DesktopModules\CropPlan\CropPlan.ascx.cs:line 103
+   at DevExpress.Web.ASPxEditors.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxEditors.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxClasses.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-04-12 06:03:36,581 [kmaharaj][Thread:16][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: The added or subtracted value results in an un-representable DateTime.
+Parameter name: value
+   at System.DateTime.AddTicks(Int64 value)
+   at System.DateTime.Add(Double value, Int32 scale)
+   at System.DateTime.AddDays(Double value)
+   at TTFarmGA.Evaluate(ArrayList chromosomes, Int32 maxBeds) in e:\TTFarm\App_Code\TTFarmGA.cs:line 141
+   at TTFarmGA.Execute(ArrayList genes, Int32 maxBeds, Int32 newPlanID) in e:\TTFarm\App_Code\TTFarmGA.cs:line 169
+   at DesktopModules_CropPlan_CropPlan.ASPxButton1_Click(Object sender, EventArgs e) in e:\TTFarm\DesktopModules\CropPlan\CropPlan.ascx.cs:line 103
+   at DevExpress.Web.ASPxEditors.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxEditors.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxClasses.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-04-12 06:12:14,837 [kmaharaj][Thread:13][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: The added or subtracted value results in an un-representable DateTime.
+Parameter name: value
+   at System.DateTime.AddTicks(Int64 value)
+   at System.DateTime.Add(Double value, Int32 scale)
+   at System.DateTime.AddDays(Double value)
+   at TTFarmGA.Evaluate(ArrayList chromosomes, Int32 maxBeds) in e:\TTFarm\App_Code\TTFarmGA.cs:line 141
+   at TTFarmGA.Execute(ArrayList genes, Int32 maxBeds, Int32 newPlanID) in e:\TTFarm\App_Code\TTFarmGA.cs:line 173
+   at DesktopModules_CropPlan_CropPlan.ASPxButton1_Click(Object sender, EventArgs e) in e:\TTFarm\DesktopModules\CropPlan\CropPlan.ascx.cs:line 103
+   at DevExpress.Web.ASPxEditors.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxEditors.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxClasses.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-04-12 06:12:14,864 [kmaharaj][Thread:13][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: The added or subtracted value results in an un-representable DateTime.
+Parameter name: value
+   at System.DateTime.AddTicks(Int64 value)
+   at System.DateTime.Add(Double value, Int32 scale)
+   at System.DateTime.AddDays(Double value)
+   at TTFarmGA.Evaluate(ArrayList chromosomes, Int32 maxBeds) in e:\TTFarm\App_Code\TTFarmGA.cs:line 141
+   at TTFarmGA.Execute(ArrayList genes, Int32 maxBeds, Int32 newPlanID) in e:\TTFarm\App_Code\TTFarmGA.cs:line 173
+   at DesktopModules_CropPlan_CropPlan.ASPxButton1_Click(Object sender, EventArgs e) in e:\TTFarm\DesktopModules\CropPlan\CropPlan.ascx.cs:line 103
+   at DevExpress.Web.ASPxEditors.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxEditors.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxClasses.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-04-12 06:15:33,103 [kmaharaj][Thread:9][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: The added or subtracted value results in an un-representable DateTime.
+Parameter name: value
+   at System.DateTime.AddTicks(Int64 value)
+   at System.DateTime.Add(Double value, Int32 scale)
+   at System.DateTime.AddDays(Double value)
+   at TTFarmGA.Evaluate(ArrayList chromosomes, Int32 maxBeds) in e:\TTFarm\App_Code\TTFarmGA.cs:line 141
+   at TTFarmGA.Execute(ArrayList genes, Int32 maxBeds, Int32 newPlanID) in e:\TTFarm\App_Code\TTFarmGA.cs:line 173
+   at DesktopModules_CropPlan_CropPlan.ASPxButton1_Click(Object sender, EventArgs e) in e:\TTFarm\DesktopModules\CropPlan\CropPlan.ascx.cs:line 103
+   at DevExpress.Web.ASPxEditors.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxEditors.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxClasses.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-04-12 06:15:33,174 [kmaharaj][Thread:9][ERROR] DotNetNuke.Framework.PageBase - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: The added or subtracted value results in an un-representable DateTime.
+Parameter name: value
+   at System.DateTime.AddTicks(Int64 value)
+   at System.DateTime.Add(Double value, Int32 scale)
+   at System.DateTime.AddDays(Double value)
+   at TTFarmGA.Evaluate(ArrayList chromosomes, Int32 maxBeds) in e:\TTFarm\App_Code\TTFarmGA.cs:line 141
+   at TTFarmGA.Execute(ArrayList genes, Int32 maxBeds, Int32 newPlanID) in e:\TTFarm\App_Code\TTFarmGA.cs:line 173
+   at DesktopModules_CropPlan_CropPlan.ASPxButton1_Click(Object sender, EventArgs e) in e:\TTFarm\DesktopModules\CropPlan\CropPlan.ascx.cs:line 103
+   at DevExpress.Web.ASPxEditors.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxEditors.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxClasses.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-04-12 07:18:06,464 [kmaharaj][Thread:6][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException: The state information is invalid for this page and might be corrupted. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: ::1
+	Port: 2783
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0
+	ViewState: d6keiXtelYpWUt11D5/ttNFsY1eTMjiawDk+IN9QOm3jZrrw+85vKc4QWh+Uw+aifnmWXCzVnM17lazXIp3YTBEShD0R1pmFvX9Ks9MP3Qrks3Z7f2ycag78ycKpL7AnRDbqyR8OweZ1VKu5
+	Referer: http://localhost/OurServices/CropPlan.aspx?planid=3
+	Path: /Default.aspx
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ClientScriptManager.EnsureEventValidationFieldLoaded()
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.WebControls.TextBox.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-04-12 07:18:06,596 [kmaharaj][Thread:6][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.Web.HttpException: The state information is invalid for this page and might be corrupted. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: ::1
+	Port: 2783
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0
+	ViewState: d6keiXtelYpWUt11D5/ttNFsY1eTMjiawDk+IN9QOm3jZrrw+85vKc4QWh+Uw+aifnmWXCzVnM17lazXIp3YTBEShD0R1pmFvX9Ks9MP3Qrks3Z7f2ycag78ycKpL7AnRDbqyR8OweZ1VKu5
+	Referer: http://localhost/OurServices/CropPlan.aspx?planid=3
+	Path: /Default.aspx
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ClientScriptManager.EnsureEventValidationFieldLoaded()
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.WebControls.TextBox.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-04-12 07:18:19,317 [kmaharaj][Thread:12][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException: The state information is invalid for this page and might be corrupted. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: ::1
+	Port: 2783
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0
+	ViewState: d6keiXtelYpWUt11D5/ttNFsY1eTMjiawDk+IN9QOm3jZrrw+85vKc4QWh+Uw+aifnmWXCzVnM17lazXIp3YTBEShD0R1pmFvX9Ks9MP3Qrks3Z7f2ycag78ycKpL7AnRDbqyR8OweZ1VKu5
+	Referer: http://localhost/OurServices/CropPlan.aspx?planid=3
+	Path: /Default.aspx
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ClientScriptManager.EnsureEventValidationFieldLoaded()
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.WebControls.TextBox.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2013-04-12 07:18:19,354 [kmaharaj][Thread:12][ERROR] System.Web.UI.Page - ~/Default.aspx?tabid=89&error=An unexpected error has occurred&content=0
+System.Web.HttpException: The state information is invalid for this page and might be corrupted. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: ::1
+	Port: 2783
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0
+	ViewState: d6keiXtelYpWUt11D5/ttNFsY1eTMjiawDk+IN9QOm3jZrrw+85vKc4QWh+Uw+aifnmWXCzVnM17lazXIp3YTBEShD0R1pmFvX9Ks9MP3Qrks3Z7f2ycag78ycKpL7AnRDbqyR8OweZ1VKu5
+	Referer: http://localhost/OurServices/CropPlan.aspx?planid=3
+	Path: /Default.aspx
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ClientScriptManager.EnsureEventValidationFieldLoaded()
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.WebControls.TextBox.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
